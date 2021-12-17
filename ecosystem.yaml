@@ -1,0 +1,7 @@
+apps:
+  - name: chat-app
+    script: index.js
+    env:
+      PORT: 3000
+    instances: 4
+    exec_mode: cluster
